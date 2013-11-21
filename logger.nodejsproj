@@ -26,9 +26,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include=".git\" />
     <Folder Include="lib" />
+    <Folder Include="node_modules\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".git\config">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include=".git\description">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include=".git\FETCH_HEAD">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include=".git\HEAD">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include=".git\index">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.js">
       <SubType>Content</SubType>
     </Content>

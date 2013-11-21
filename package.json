@@ -1,24 +1,27 @@
 {
-    "name": "logger",
-    "description": "Yet another logging module",
-    "keywords": [
-        "log",
-        "logging"
-    ],
-    "author": {
-        "name": "Rune Bjerke",
-        "url": "http://spoox.org"
-    },
-    "version": "0.0.1",
-    "license": "BSD",
-    "repository": {
-        "url": ""
-    },
-    "main": "index.js",
-    "dependencies": {
-    },
-    "engines": {
-        "node": "*"
-    },
-    "private": true
+  "name": "logger",
+  "description": "Yet another logging module",
+  "keywords": [
+    "log",
+    "logging"
+  ],
+  "author": {
+    "name": "Rune Bjerke",
+    "url": "http://spoox.org"
+  },
+  "version": "0.0.1",
+  "license": "BSD",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "ansi": "~0.2.1",
+    "sprintf": "~0.1.3",
+    "dateformat": "~1.0.6-1.2.3"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "private": true
 }

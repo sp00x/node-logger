@@ -1,9 +1,9 @@
 {
-    "name": "elasticsearch-ex",
-    "description": "Convenience methods/wrappers for Elastic search",
+    "name": "logger",
+    "description": "Yet another logging module",
     "keywords": [
-        "elasticsearch",
-        "elastic search"
+        "log",
+        "logging"
     ],
     "author": {
         "name": "Rune Bjerke",

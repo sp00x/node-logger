@@ -46,10 +46,16 @@
     <Content Include=".git\index">
       <SubType>Content</SubType>
     </Content>
+    <Content Include=".git\ORIG_HEAD">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="lib\logger.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node-logger.njsproj">
       <SubType>Content</SubType>
     </Content>
     <Content Include="README.md">
